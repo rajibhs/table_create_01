@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+table{
+	margin: 100px auto;
+	padding: 10px;
+	color: #fff;
+	font-size: 25px;
+	border-collapse: collapse;
+	background: green;
+	border-radius: 5px;
+}
+caption{
+	padding: 15px 0;
+	font-size: 30px;
+	font-weight: 700;
+	color: #db6400;
+	text-align: center;
+	background: #14274e;
+}
+
+thead th{
+	color: #222831;
+}
+tr,th,td{
+	padding: 10px 50px;
+	border: 2px solid #db6400;
+	transition: .3s;
+}
+th:hover,td:hover{
+	background: #db6400;;
+}
